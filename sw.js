@@ -1,7 +1,6 @@
 importScripts('workbox-sw.js');
 var cacheStorageKey = 'minimal-pwa-1'
 var cacheList = [
-    '/',
     'index.html',
     'main.css',
     'github.png'
