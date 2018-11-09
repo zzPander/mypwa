@@ -13,7 +13,7 @@
         <script>
             if(navigator.serviceWorker != null){
                 navigator.serviceWorker.register('sw.js')
-                .then(function(registartion){
+                .then(function(registration){
                     console.log('支持sw',registartion.scope)
                 })
             }
